@@ -8,12 +8,11 @@ class Nav extends React.Component {
     render() {
       return (
         <nav>
-        <div className="nav-wrapper">
-          <a href="#" className="brand-logo">Clicky Game</a>
-          <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><a href="badges.html">Was guess correct?</a></li>
-            <li><a href="collapsible.html">Score</a></li>
-          </ul>
+        <div className="nav-wrapper" className="card-panel teal lighten-2">
+          <a href="#" className="brand-logo" class="left">Clicky Game</a>
+          <a href="#" className="brand-logo" class="right">Your Guess</a>
+          <a href="#" className="brand-logo" class="center-align">Score</a>
+
         </div>
       </nav>
       
